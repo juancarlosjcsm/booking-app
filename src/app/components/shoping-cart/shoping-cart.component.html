@@ -1,0 +1,15 @@
+<div class="card full-height p-2" >
+  <div *ngIf="cart.length > 0" class="overflow-auto">
+    <div class="mb-4" *ngFor="let event of cart">
+      <h5>{{ event.title }}</h5>
+      <hr class="m-1">
+      <div *ngFor="let session of event.sessions" class="d-flex justify-content-between align-items-center p-2">
+        <span>{{ session.date | date : 'dd/MM/yyyy' }}</span>
+        <p class="mb-0"><span>x{{ session.selected }}</span><button class="btn btn-sm bg-none" (click)="removeSession(event.id, session.date)"><img class="w-25" src="assets/img/trash.png" /></button></p>
+      </div>
+    </div>
+  </div>
+  <p *ngIf="cart.length === 0">Carrito vacío.</p>
+  <button class="btn btn-primary btn-sm bottom-0 position-relative bottom-0" disabled title="Boton de demo, no disponible">Comprar</button>
+</div>
+
