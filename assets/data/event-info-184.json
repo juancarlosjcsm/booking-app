@@ -3,7 +3,7 @@
         "id": "184",
         "title": "PABLO ALBORÁN",
         "subtitle": "Terral (2014)",
-        "image": "/assets/img/sample-image.jpg",
+        "image": "./assets/img/sample-image.jpg",
         "description": "<b>Pablo Alborán</b> vuelve a los escenarios para presentar <i>Terral</i> (2014), un nuevo trabajo discográfico donde el artista de Málaga mantiene las constantes creativas que le han convertido en favorito del público: delicadeza, romanticismo y preciosismo melódico."
     },
     "sessions": [

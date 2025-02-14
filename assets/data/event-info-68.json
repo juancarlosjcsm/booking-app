@@ -3,7 +3,7 @@
         "id": "68",
         "title": "JOAN MANUEL SERRAT",
         "subtitle": "Antología desordenada",
-        "image": "/assets/img/sample-image.jpg",
+        "image": "./assets/img/sample-image.jpg",
         "description": "Cinquanta cançons en un disc quàdruple, un llibre amb textos personals i un centenar de fotografies per commemorar mig segle als escenaris."
     },
     "sessions": [
